@@ -17,7 +17,7 @@ export default function RecentBlogs() {
 
   return (
     <section className="flex flex-col items-center text-center px-6 py-12 bg-[#D9D9D9]/12">
-      <h1 className="title ">RECENT BLOGS</h1>
+      <h1 className="title ">Recent Blogs</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mt-6 sm:px-4">
         {blogs.map((blog, index) => (

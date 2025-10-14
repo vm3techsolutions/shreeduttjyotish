@@ -57,7 +57,7 @@ const TestimonialSlider = () => {
 
   return (
     <section className="flex flex-col items-center text-center px-6 py-12">
-      <h1 className="title">SERVICES</h1>
+      <h1 className="title">Testimonials</h1>
       <h2 className="text-xl md:text-3xl font-semibold text-[#2E7D32] mb-4" style={{ fontFamily: 'EB Garamond'}}>See how lives transformed with us.</h2>
 
       <div className="w-full  mx-auto ">

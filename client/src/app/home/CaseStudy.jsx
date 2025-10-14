@@ -49,7 +49,7 @@ export default function CaseStudy() {
   return (
     <section className="flex flex-col items-center text-center px-6 py-12">
       {/* Header */}
-      <h1 className="title">CASE STUDY</h1>
+      <h1 className="title">Case Study</h1>
       <h2 className="subtitle">ASTROLOGY WITH ACCURACY & INTEGRITY</h2>
       <p className="description ">
         Learn How to Quickly Generate Placeholder Text Using a Lorem Ipsum Tool. Explore How Lorem Ipsum Generators Can Liven up Your Web Layout Wireframes and Mockups.
