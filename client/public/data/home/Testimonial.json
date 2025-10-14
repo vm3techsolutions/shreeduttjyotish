@@ -1,0 +1,39 @@
+          
+            [
+            {
+                "id": 1,
+                "quote": "Our transition was seamless and the results were immediate. This platform is a true game-changer for businesses seeking efficiency.",
+                "name": "Arjun Patel",
+                "image": "/assets/home/Testimonial.png"
+            },
+            {
+                "id": 2,
+                "quote": "The team's support was exceptional. We saw a significant increase in customer satisfaction within the first month of use.",
+                "name": "Priya Singh",
+                "image": "/assets/home/Testimonial.png"
+            },
+            {
+                "id": 3,
+                "quote": "Fantastic service and an intuitive interface. It streamlined our entire workflow and saved us countless man-hours.",
+                "name": "Vikram Rao",
+                "image": "/assets/home/Testimonial.png"
+            },
+            {
+                "id": 4,
+                "quote": "The platform exceeded our expectations. The robust features and reliability make it an indispensable tool for our operations.",
+                "name": "Sneha Reddy",
+                "image": "/assets/home/Testimonial.png"
+            },
+            {
+                "id": 5,
+                "quote": "We highly recommend this service. It offers outstanding value and the performance is consistently top-notch.",
+                "name": "Ravi Kumar",
+                "image": "/assets/home/Testimonial.png"
+            },
+            {
+                "id": 6,
+                "quote": "A truly transformative experience! We are now much more competitive thanks to the insights we gained from the system.",
+                "name": "Alia Khan",
+                "image": "/assets/home/Testimonial.png"
+            }
+            ]
