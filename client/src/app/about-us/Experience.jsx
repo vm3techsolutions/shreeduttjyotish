@@ -18,7 +18,7 @@ export default function CaseStudy() {
      
 
  {/* Yellow Box */}
-      <div className="bg-[#D4AF37] w-full py-14 flex flex-col sm:flex-row justify-center items-center gap-40 rounded-none mt-3">
+      <div className="bg-[#D4AF37] w-full py-14 flex flex-col sm:flex-row justify-center items-center sm:gap-40 gap-14 rounded-none mt-3">
         {data.map((item, index) => (
           <div
             key={index}

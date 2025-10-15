@@ -30,23 +30,54 @@ export default function Footer() {
           <h3 className="text-[#D4AF37] text-lg font-semibold">Quick Links</h3>
           <ul className="list-none text-white text-base space-y-4 mt-4">
             <li><Link href="/about-us" className="hover:text-[#B71C1C]">About Us</Link></li>
-            <li><Link href="/insights" className="hover:text-[#B71C1C]">Services</Link></li>
-            <li><Link href="/gallery" className="hover:text-[#B71C1C]">Case Study</Link></li>
-            <li><Link href="/career" className="hover:text-[#B71C1C]">Blog</Link></li>
-            <li><Link href="/contact-us" className="hover:text-[#B71C1C]">Contact Us</Link></li>
+            {/* <li><Link href="/insights" className="hover:text-[#B71C1C]">Services</Link></li> */}
+            <li><Link href="/case-study" className="hover:text-[#B71C1C]">Case Study</Link></li>
+            <li><Link href="/blog" className="hover:text-[#B71C1C]">Blog</Link></li>
+            <li><Link href="/contact" className="hover:text-[#B71C1C]">Contact Us</Link></li>
           </ul>
         </div>
 
          {/* Column 3 */}
-        <div className="flex flex-col sm:pl-10">
+        <div className="flex flex-col ">
           <h3 className="text-[#D4AF37] text-lg font-semibold"> Services</h3>
-          <ul className="list-none text-white text-base space-y-4 mt-4">
-            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 1</Link></li>
-            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 2</Link></li>
-            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 3</Link></li>
-            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 4</Link></li>
-            <li><Link href="/Service" className="hover:text-[#B71C1C]"> Service 5</Link></li>
-          </ul>
+         <ul className="list-none text-white text-base space-y-4 mt-4">
+  <li>
+    <Link href="/services/horoscope-reading" className="hover:text-[#B71C1C]">
+      Horoscope Reading
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/vastushastra" className="hover:text-[#B71C1C]">
+      Vastushastra
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/numerology" className="hover:text-[#B71C1C]">
+      Numerology
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/real-estate-consultation" className="hover:text-[#B71C1C]">
+      Real Estate Consultation
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/religious-guidance" className="hover:text-[#B71C1C]">
+      Religious Guidance
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/dowsing" className="hover:text-[#B71C1C]">
+      Dowsing
+    </Link>
+  </li>
+  <li>
+    <Link href="/services/customised-suggestions" className="hover:text-[#B71C1C]">
+      Customised Suggestions
+    </Link>
+  </li>
+</ul>
+
         </div>
 
         {/* Column 4 */}
@@ -54,7 +85,7 @@ export default function Footer() {
           <h3 className="text-[#D4AF37] text-lg font-semibold">Other Links</h3>
           <ul className="list-none text-white text-base space-y-4 mt-4">
             <li><Link href="/privacy-policy" className="hover:text-[#B71C1C]">Privacy Policy</Link></li>
-            <li><Link href="/terms-and-conditions" className="hover:text-[#B71C1C]">Terms & Conditions</Link></li>
+            <li><Link href="/terms-conditions" className="hover:text-[#B71C1C]">Terms & Conditions</Link></li>
           </ul>
         </div>
 

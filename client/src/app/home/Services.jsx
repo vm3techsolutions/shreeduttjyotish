@@ -16,14 +16,15 @@ const photos = [
 
 // Array for buttons (one button per image)
 const buttons = [
-  { name: "Horoscope Reading", path: "/server/" },
-  { name: "Vastushastra", path: "/server/" },
-  { name: "Numerology", path: "/server/" },
-  { name: "Real Estate Consultation", path: "/server/" },
-  { name: "Religious Guidance", path: "/server/" },
-  { name: "Dowsing", path: "/server/" },
-  { name: "Customised Suggestions", path: "/server/" },
+  { name: "Horoscope Reading", path: "/services/horoscope-reading" },
+  { name: "Vastushastra", path: "/services/vastushastra" },
+  { name: "Numerology", path: "/services/numerology" },
+  { name: "Real Estate Consultation", path: "/services/real-estate-consultation" },
+  { name: "Religious Guidance", path: "/services/religious-guidance" },
+  { name: "Dowsing", path: "/services/dowsing" },
+  { name: "Customised Suggestions", path: "/services/customised-suggestions" },
 ];
+
 
 export default function Photo() {
   return (
