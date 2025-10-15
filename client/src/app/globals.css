@@ -147,6 +147,17 @@ body {
   text-transform: uppercase;
 }
 
+.subtitle1 {
+  font-family: 'EB Garamond';
+  font-size: 25px;       /* Increased to 25px */
+  padding: 0 0.5rem;     /* px-2 (less on mobile) */
+  font-weight: 600;
+  margin-bottom: 1rem;   /* mb-4 */
+  color: #B71C1C;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 
 @media (min-width: 640px) {
   .subtitle {

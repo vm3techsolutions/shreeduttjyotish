@@ -18,11 +18,11 @@ export default function LeftImageSection() {
       </div>
 
       {/* Right Text Content */}
-      <div className="w-full md:w-3/5 md:pl-8 text-center md:text-left sm:ml-10">
+      <div className="w-full md:w-3/5 md:pl-8  md:text-left sm:ml-10">
         <h4 className="title">
           About Us
         </h4>
-        <h2 className="text-xl md:text-3xl font-semibold  text-[#B71C1C] mb-4"  style={{ fontFamily: 'EB Garamond'}}>
+        <h2 className="text-xl md:text-4xl font-semibold  text-[#B71C1C] mb-4"  style={{ fontFamily: 'EB Garamond'}}>
          We bring balance through Jyotish and Vastu.
         </h2>
         <p className="text-[#000] mb-6 leading-relaxed">
