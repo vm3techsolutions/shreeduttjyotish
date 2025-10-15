@@ -137,14 +137,16 @@ body {
 
 /* ========== SUBTITLE ========== */
 .subtitle {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.375rem; /* smaller for mobile */
-  padding: 0 0.5rem;  /* px-2 (less on mobile) */
+  font-family: 'EB Garamond';
+  font-size: 25px;       /* Increased to 25px */
+  padding: 0 0.5rem;     /* px-2 (less on mobile) */
   font-weight: 600;
-  margin-bottom: 1rem; /* mb-4 */
+  margin-bottom: 1rem;   /* mb-4 */
   color: #B71C1C;
   text-align: center;
+  text-transform: uppercase;
 }
+
 
 @media (min-width: 640px) {
   .subtitle {
@@ -211,3 +213,8 @@ body {
 }
 
 
+/* ====== Global Typography ====== */
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Poppins', sans-serif !important;
+  
+}

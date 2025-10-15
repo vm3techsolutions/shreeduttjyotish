@@ -5,13 +5,13 @@ import Link from "next/link";
 import React from "react";
 
 const photos = [
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
-  "/assets/home/Services.png",
+  "/assets/home/0.png",
+  "/assets/home/1.png",
+  "/assets/home/2.png",
+  "/assets/home/3.png",
+  "/assets/home/4.png",
+  "/assets/home/5.png",
+  "/assets/home/6.png",
 ];
 
 // Array for buttons (one button per image)
@@ -29,7 +29,7 @@ const buttons = [
 export default function Photo() {
   return (
     <section className="flex flex-col items-center text-center px-6 py-12">
-      <h1 className="title">Services</h1>
+      <h1 className="title ">Services</h1>
       <h2 className="subtitle">WITH PRECISE READINGS, GET CLARITY ABOUT HEALTH, RELATIONSHIPS, CAREER, AND FINANCES.</h2>
       <p className="description">
        Learn How to Quickly Generate Placeholder Text Using a Lorem Ipsum Tool. Explore How Lorem Ipsum Generators Can Liven up Your Web Layout Wireframes and Mockups. Learn How to Quickly Generate Placeholder Text Using a Lorem Ipsum Tool. Explore How Lorem Ipsum Generators Can Liven up Your Web Layout Wireframes and Mockups.

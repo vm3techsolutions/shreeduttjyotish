@@ -6,10 +6,7 @@ export default function TestimonialSlider() {
   return (
     <section className="flex flex-col items-center text-center px-6 py-12">
       <h1 className="title">Contact Us</h1>
-      <h2
-        className="text-xl md:text-3xl font-semibold text-[#2E7D32] mb-8"
-        style={{ fontFamily: "EB Garamond" }}
-      >
+      <h2 className="subtitle"      >
         Begin your journey with us today.
       </h2>
 

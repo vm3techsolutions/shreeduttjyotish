@@ -18,26 +18,25 @@ export default function Header() {
     setIsLangOpen(false);
   }, [pathname]);
 
- const links = [
-  { href: "/about-us", label: "About Us" },
-  {
-    href: "#",
-    label: "Services",
-    submenu: [
-      { href: "/services/horoscope-reading", label: "Horoscope Reading" },
-      { href: "/services/vastushastra", label: "Vastushastra" },
-      { href: "/services/numerology", label: "Numerology" },
-      { href: "/services/real-estate-consultation", label: "Real Estate Consultation" },
-      { href: "/services/religious-guidance", label: "Religious Guidance" },
-      { href: "/services/dowsing", label: "Dowsing" },
-      { href: "/services/customised-suggestions", label: "Customised Suggestions" },
-    ],
-  },
-  { href: "/case-study", label: "Case Study" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact Us" },
-];
-
+  const links = [
+    { href: "/about-us", label: "About Us" },
+    {
+      href: "#",
+      label: "Services",
+      submenu: [
+        { href: "/services/horoscope-reading", label: "Horoscope Reading" },
+        { href: "/services/vastushastra", label: "Vastushastra" },
+        { href: "/services/numerology", label: "Numerology" },
+        { href: "/services/real-estate-consultation", label: "Real Estate Consultation" },
+        { href: "/services/religious-guidance", label: "Religious Guidance" },
+        { href: "/services/dowsing", label: "Dowsing" },
+        { href: "/services/customised-suggestions", label: "Customised Suggestions" },
+      ],
+    },
+    { href: "/case-study", label: "Case Study" },
+    { href: "/blog", label: "Blog" },
+    { href: "/contact", label: "Contact Us" },
+  ];
 
   return (
     <header className="w-full shadow-md bg-white flex items-center justify-between relative lg:pl-[80px] lg:pr-[40px]">
@@ -58,16 +57,22 @@ export default function Header() {
           <div key={link.href} className="relative group content">
             <Link
               href={link.href}
-              className={`content nav-link ${
+              className={`content nav-link flex items-center gap-[3px] ${
                 pathname === link.href ? "active" : ""
               }`}
             >
               {link.label}
+              {link.submenu && (
+                <ChevronDown
+                  size={24}
+                  className="pt-1 transition-transform duration-300 group-hover:rotate-180"
+                />
+              )}
             </Link>
 
             {/* Submenu for desktop */}
             {link.submenu && (
-              <ul className="absolute left-0 w-48 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+              <ul className="absolute left-0 w-48 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 rounded-[12px]">
                 {link.submenu.map((sublink) => (
                   <li key={sublink.href}>
                     <Link
@@ -94,12 +99,12 @@ export default function Header() {
 
         {/* Language Dropdown */}
         <div className="relative group">
-          <button className="flex items-center gap-2 border border-[#B71C1C] rounded-[5px] px-4 py-2 text-black font-semibold hover:bg-[#B71C1C] hover:text-white transition-all duration-300">
+          <button className="flex items-center gap-2 border border-[#B71C1C] rounded-[5px] px-4 py-2 text-black font-semibold hover:bg-[#B71C1C] hover:text-white transition-all duration-300 ">
             English
             <ChevronDown size={18} />
           </button>
 
-          <ul className="absolute right-0 top-full mt-2 w-28 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden z-50">
+          <ul className="absolute right-0 top-full mt-2 w-28 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden z-50 rounded-[5px]">
             <li>
               <button className="block w-full text-left px-4 py-1.5 text-[#000] hover:bg-[#B71C1C] hover:text-white text-[16px]">
                 English
@@ -128,7 +133,7 @@ export default function Header() {
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* ✅ Mobile Drawer with smooth transition */}
+      {/* ✅ Mobile Drawer */}
       <div
         className={`absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-start py-6 space-y-2 md:hidden z-50 transform transition-all duration-500 ease-in-out ${
           isOpen

@@ -40,7 +40,7 @@ export default function Photo() {
         {/* Left Side - GIF */}
         <div className="w-full lg:w-2/5 flex justify-center">
           <Image
-            src="/assets/home/Services.png" // 🔹 Replace with your GIF path
+            src="/assets/home/WCU.jpg" // 🔹 Replace with your GIF path
             alt="Astrology GIF"
             width={400}
             height={400}
