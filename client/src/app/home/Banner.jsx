@@ -13,7 +13,7 @@ export default function HomeBanner() {
 
       {/* Content */}
      <div className="section relative z-10 px-4 sm:px-2 md:px-6 text-center">
-  <h1 className="heading text-white pb-6 sm:pb-4">
+  <h1 className="heading text-white pb-6 sm:pb-4" style={{ fontFamily: 'EB Garamond'}}>
     Where Ancient Wisdom Meets Modern Living.
     <br className="hidden sm:block" />
   </h1>

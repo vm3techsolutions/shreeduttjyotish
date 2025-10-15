@@ -1,15 +1,17 @@
 "use client";
 
 import React from "react";
-
-import "swiper/css";
-import "swiper/css/navigation";
-
+import Image from "next/image";
 
 
 export default function CaseStudy() {
+   const members = [
+    { name: "Madhuri Tikhe", img: "/assets/home/Services.png" },
+    { name: "Virendra Tikhe", img: "/assets/home/Services.png" },
+    { name: "Ashwini Tikhe", img: "/assets/home/Services.png" },
+  ];
   return (
-    <section className="flex flex-col items-center text-center px-6 py-12">
+    <section className="flex flex-col items-center text-center px-6 py-12 mt-6">
       {/* Header */}
       <h1 className="title">The Journey</h1>
       <h2 className="subtitle">A Lifelong Connection with the Stars</h2>
@@ -19,6 +21,29 @@ soon evolved into a lifelong calling — to help people align their actions with
 in the study of Vedic Astrology, Vastu Shastra, and Numerology, learning from masters and sacred texts.”“Today, my purpose is simple — to translate these cosmic insights into practical, positive, and transformative guidance for individuals, 
 families, and businesses worldwide. </p>
 
+
+ {/* Members Section */}
+     <div className="mt-3 flex flex-col sm:flex-row justify-center items-center sm:gap-24 gap-10">
+  {members.map((person, index) => (
+    <div key={index} className="flex flex-col items-center group">
+      {/* Image Box */}
+      <div className="w-68 h-68 bg-gray-200 rounded-md overflow-hidden">
+        <Image
+          src={person.img}
+          alt={person.name}
+          width={192}
+          height={192}
+          className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+        />
+      </div>
+
+      {/* Name */}
+      <p className="mt-3 text-[#2E7D32] font-semibold text-2xl">
+        {person.name}
+      </p>
+    </div>
+  ))}
+</div>
 
      
     </section>

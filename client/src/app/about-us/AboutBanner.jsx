@@ -13,7 +13,7 @@ export default function HomeBanner() {
 
       {/* Content */}
      <div className="section relative z-10 px-4 sm:px-2 md:px-6 text-center ml-4 sm:pr-[700px]">
-  <h1 className=" text-white pb-6 sm:pb-4  font-bold text-left  sm:text-[40px] sm:leading-[55px]">
+  <h1 className=" text-white pb-6 sm:pb-4  font-bold text-left  sm:text-[40px] sm:leading-[55px]" style={{ fontFamily: 'EB Garamond'}}>
    Guiding Lives Through <br/>The Cosmic Path <br/>Of Wisdom & Balanc
     <br className="hidden sm:block" />
   </h1>

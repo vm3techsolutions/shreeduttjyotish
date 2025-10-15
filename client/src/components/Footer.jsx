@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <section className="flex flex-col bg-[#2E7D32] mt-10">
       {/* Main Footer Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 px-6 lg:px-20 mt-10 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-0 px-6 lg:px-10 mt-10 mb-4">
         
         {/* Column 1 */}
         <div className="flex flex-col space-y-4">
@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
 
         {/* Column 2 */}
-        <div className="flex flex-col sm:ml-8">
+        <div className="flex flex-col sm:pl-10">
           <h3 className="text-[#D4AF37] text-lg font-semibold">Quick Links</h3>
           <ul className="list-none text-white text-base space-y-4 mt-4">
             <li><Link href="/about-us" className="hover:text-[#B71C1C]">About Us</Link></li>
@@ -37,7 +37,19 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 3 */}
+         {/* Column 3 */}
+        <div className="flex flex-col sm:pl-10">
+          <h3 className="text-[#D4AF37] text-lg font-semibold"> Services</h3>
+          <ul className="list-none text-white text-base space-y-4 mt-4">
+            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 1</Link></li>
+            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 2</Link></li>
+            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 3</Link></li>
+            <li><Link href="/Service" className="hover:text-[#B71C1C]">Service 4</Link></li>
+            <li><Link href="/Service" className="hover:text-[#B71C1C]"> Service 5</Link></li>
+          </ul>
+        </div>
+
+        {/* Column 4 */}
         <div className="flex flex-col">
           <h3 className="text-[#D4AF37] text-lg font-semibold">Other Links</h3>
           <ul className="list-none text-white text-base space-y-4 mt-4">
@@ -46,8 +58,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 4 */}
-        <div className="flex flex-col justify-between -ml-4">
+        {/* Column 5 */}
+        <div className="flex flex-col justify-between sm:-ml-4  ">
           <div className="text-[#ffffff] mb-6">
             <h3 className="text-[#D4AF37] text-lg font-semibold">Get In Touch</h3>
 

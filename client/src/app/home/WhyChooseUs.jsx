@@ -36,7 +36,7 @@ export default function Photo() {
       </p>
 
       {/* GIF + Cards Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt- w-full ">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-3 w-full ">
         {/* Left Side - GIF */}
         <div className="w-full lg:w-2/5 flex justify-center">
           <Image

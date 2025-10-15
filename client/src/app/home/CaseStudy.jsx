@@ -56,7 +56,7 @@ export default function CaseStudy() {
       </p>
 
       {/* Testimonial Slider */}
-      <div className="w-full border border-[#D4AF37] hover:border-[#B71C1C] rounded-[10px] p-6 bg-white relative">
+      <div className="w-full border border-[#D4AF37] hover:border-[#B71C1C] rounded-[10px] p-6 bg-white relative mt-3">
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}

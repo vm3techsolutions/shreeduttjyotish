@@ -14,7 +14,7 @@ export default function TestimonialSlider() {
       </h2>
 
       {/* Two-column section */}
-      <div className="flex flex-col lg:flex-row items-center bg-[#D4A73F26] sm:rounded-[90px] w-full gap-10 sm:gap-0">
+      <div className="flex flex-col lg:flex-row items-center bg-[#D4A73F26] sm:rounded-[90px] w-full gap-10 sm:gap-0 mt-3">
         {/* Left: Image */}
         <div className="w-full lg:w-1/2 sm:rounded-tl-[90px] sm:rounded-bl-[90px]">
           <Image

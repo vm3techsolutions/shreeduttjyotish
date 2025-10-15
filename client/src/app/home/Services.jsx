@@ -35,7 +35,7 @@ export default function Photo() {
       </p>
 
       {/* Photos Grid */}
-      <div className="grid sm:grid-cols-4 sm:gap-20 gap-10 mb-20">
+      <div className="grid sm:grid-cols-4 sm:gap-20 gap-10 mb-20 mt-3">
   {photos.slice(0, 4).map((src, index) => (
     <div key={index} className="flex flex-col items-center">
       <div className="w-54 h-54 mb-2 group">
