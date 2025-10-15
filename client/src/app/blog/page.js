@@ -1,7 +1,10 @@
 import React from 'react'
+import BlogBanner from './BlogBanner'
 
 export default function page() {
   return (
-    <div>page</div>
+    <div>
+      <BlogBanner/>
+    </div>
   )
 }

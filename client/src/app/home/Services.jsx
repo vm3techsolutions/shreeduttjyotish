@@ -34,7 +34,7 @@ export default function Photo() {
   return (
     <section className="flex flex-col items-center text-center px-6 py-12">
       <h1 className="title">Services</h1>
-      <h2 className="subtitle">
+      <h2 className="subtitle"  style={{ fontFamily: "'EB Garamond'" }}>
         WITH PRECISE READINGS, GET CLARITY ABOUT HEALTH, RELATIONSHIPS, CAREER, AND FINANCES.
       </h2>
       <p className="description">
@@ -69,7 +69,7 @@ export default function Photo() {
               />
             </div>
             <Link href={buttons[index].path}>
-              <button className="mt-2 px-4 py-1 w-54 hover:bg-[#2E7D32] transition button">
+              <button className="mt-2 px-4 py-1 w-52 md:w-56 lg:w-60 hover:bg-[#2E7D32] transition button">
                 {buttons[index].name}
               </button>
             </Link>
@@ -105,7 +105,7 @@ export default function Photo() {
               />
             </div>
             <Link href={buttons[index + 4].path}>
-              <button className="mt-2 px-4 py-2 w-54 hover:bg-[#2E7D32] transition button">
+              <button className="mt-2 px-4 py-2 w-52 md:w-56 lg:w-60  hover:bg-[#2E7D32] transition button">
                 {buttons[index + 4].name}
               </button>
             </Link>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
 
 :root {
   --background: #ffffff;
@@ -137,15 +138,16 @@ body {
 
 /* ========== SUBTITLE ========== */
 .subtitle {
-  font-family: 'EB Garamond';
-  font-size: 45px;       /* Increased to 25px */
-  padding: 0 0.5rem;     /* px-2 (less on mobile) */
+  font-family: 'EB Garamond', serif;
+  font-size: 45px;        /* exact size */
+  padding: 0 0.5rem;      /* px-2 */
   font-weight: 600;
-  margin-bottom: 1rem;   /* mb-4 */
+  margin-bottom: 1rem;    /* mb-4 */
   color: #B71C1C;
   text-align: center;
   text-transform: uppercase;
 }
+
 
 .subtitle1 {
   font-family: 'EB Garamond';
@@ -168,12 +170,19 @@ body {
 
 @media (min-width: 1024px) {
   .subtitle {
-    font-size: 2.25rem; /* text-4xl */
+    font-size: 45px; 
     padding: 0 2rem;   /* px-8 */
     text-align: center;
   }
 }
 
+@media (min-width: 1024px) {
+  .subtitle1 {
+    font-size: 45px; 
+    padding: 0 2rem;   /* px-8 */
+    text-align: center;
+  }
+}
 /* ========== DESCRIPTION ========== */
 .description {
   font-family: 'Poppins';

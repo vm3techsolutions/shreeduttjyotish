@@ -22,7 +22,7 @@ export default function LeftImageSection() {
         <h4 className="title">
           About Us
         </h4>
-        <h2 className="text-xl md:text-4xl font-semibold  text-[#B71C1C] mb-4"  style={{ fontFamily: 'EB Garamond'}}>
+        <h2 className="text-xl sm:text-[45px] font-semibold  text-[#B71C1C] mb-4"  style={{ fontFamily: "'EB Garamond', serif" }}>
          We bring balance through Jyotish and Vastu.
         </h2>
         <p className=" mb-6 leading-relaxed">

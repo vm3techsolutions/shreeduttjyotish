@@ -13,11 +13,11 @@ export default function Footer() {
         <div className="flex flex-col space-y-4">
           <Link href="/">
             <Image
-              src="/assets/header/FooterLogo.png"
+              src="/assets/header/FinalLogo.jpg"
               alt="PPS Energy Logo"
               width={150}
               height={35}
-              className="cursor-pointer  rounded-md"
+              className="cursor-pointer "
             />
           </Link>
           <span className="text-[#ffffff] text-[15px] leading-relaxed">

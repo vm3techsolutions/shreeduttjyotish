@@ -43,7 +43,7 @@ export default function Header() {
       {/* Left: Logo */}
       <Link href="/">
         <Image
-          src="/assets/header/HeaderLogo.png"
+          src="/assets/header/FinalLogo.jpg"
           alt="Logo"
           width={150}
           height={38}
