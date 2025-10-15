@@ -38,15 +38,16 @@ export default function Photo() {
       {/* GIF + Cards Section */}
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-3 w-full ">
         {/* Left Side - GIF */}
-        <div className="w-full lg:w-2/5 flex justify-center">
-          <Image
-            src="/assets/home/WCU.jpg" // 🔹 Replace with your GIF path
-            alt="Astrology GIF"
-            width={400}
-            height={400}
-            className="rounded-lg"
-          />
-        </div>
+       <div className="w-full lg:w-2/5 flex justify-center overflow-hidden">
+  <Image
+    src="/assets/home/WCU.jpg"
+    alt="Astrology GIF"
+    width={500}
+    height={500}
+    className="rounded-lg transition-transform duration-500 ease-in-out hover:scale-90"
+  />
+</div>
+
 
         {/* Right Side - Cards */}
        <div className="w-full lg:w-3/5 grid grid-cols-1 sm:grid-cols-2 gap-6">
