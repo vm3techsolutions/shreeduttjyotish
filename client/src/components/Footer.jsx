@@ -20,9 +20,9 @@ export default function Footer() {
               className="cursor-pointer  rounded-md"
             />
           </Link>
-          <p className="text-[#ffffff] text-[15px] leading-relaxed">
+          <span className="text-[#ffffff] text-[15px] leading-relaxed">
            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
-          </p>
+          </span>
         </div>
 
         {/* Column 2 */}
@@ -95,25 +95,25 @@ export default function Footer() {
             <h3 className="text-[#D4AF37] text-lg font-semibold">Get In Touch</h3>
 
             <div className="mt-4 mb-3">
-              <p>Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <span>Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
             </div>
 
             <div className="mb-3">
-              <p>
+              <span>
                 Phone: &nbsp;
                 <Link href="tel:+911234512345" className="hover:text-[#B71C1C]">
                    +91 12345 12345
                 </Link>
-              </p>
+              </span>
             </div>
 
             <div className="mb-3">
-              <p>
+              <span>
                 Email: &nbsp;
                 <Link href="mailto:salesppsenergy@gmail.com" className="hover:text-[#B71C1C]">
                    salesppsenergy@gmail.com
                 </Link>
-              </p>
+              </span>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="text-center text-[#ffffff] bg-[#B71C1C] py-3 text-[15px]">
-        <p>
+        <span>
           Designed & Developed By:{" "}
           <Link
             href="https://vm3techsolution.com/plans/?v=212bd1cfe3fb"
@@ -158,7 +158,7 @@ export default function Footer() {
           >
             VM3 Tech Solutions LLP
           </Link>
-        </p>
+        </span>
       </div>
     </section>
   );
