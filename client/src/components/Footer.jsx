@@ -154,7 +154,7 @@ export default function Footer() {
             href="https://vm3techsolution.com/plans/?v=212bd1cfe3fb"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-[#D4AF37]"
+            className=" hover:text-[#D4AF37]"
           >
             VM3 Tech Solutions LLP
           </Link>
