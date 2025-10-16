@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function CaseStudy() {
    const members = [
     { name: "Madhuri Tikhe", img: "/assets/home/Services.png" },
-    { name: "Virendra Tikhe", img: "/assets/home/Services.png" },
+    { name: "Prayag Tikhe", img: "/assets/home/Services.png" },
     { name: "Ashwini Tikhe", img: "/assets/home/Services.png" },
   ];
   return (

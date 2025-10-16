@@ -27,6 +27,8 @@ client/.cache/
 client/.vercel/
 client/.next-static/
 client/.next-cache/
+/public/sitemap.xml
+/public/robots.txt
 
 # === Common files ===
 *.log

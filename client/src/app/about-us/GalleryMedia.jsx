@@ -14,12 +14,12 @@ export default function GalleryMedia() {
   return (
     <section className="flex flex-col items-center text-center px-6 py-12 ">
       {/* Header */}
-      <h1 className="text-[#D4A73F] font-semibold text-lg mb-2 tracking-wide">
+      <h1 className="title">
         Gallery / Media
       </h1>
       <h2
-        className="text-[#B71C1C] font-[600] text-2xl md:text-3xl mb-6"
-        style={{ fontFamily: "EB Garamond, serif" }}
+        className="subtitle"
+        
       >
      In The Spotlight
       </h2>
